@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/screen_currency_list">
+    <fragment
+        android:id="@+id/screen_currency_list"
+        android:name="com.hoahieu.demo.presentation.currencylist.CurrencyListFragment" />
+</navigation>
